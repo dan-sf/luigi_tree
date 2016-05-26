@@ -1,15 +1,16 @@
 Luigi Tree
 ==========
 
-Luigi Tree is an example project basised on the `Luigi<http://luigi.readthedocs.io/en/stable/>`_
-Python package. Once installed you can create `Pascal's triangle<https://en.wikipedia.org/wiki/Pascal%27s_triangle>`_ like dependancy graphs using the Luigi
+Luigi Tree is an example project basised on the Luigi_
+Python package. Once installed you can create `Pascal triangle`_ like dependancy graphs using the Luigi
 scheduler. This project can be used as an example starting point for anyone who is working to
 build a command line application baised on the Luigi framework.
 
+.. _Luigi: http://luigi.readthedocs.io/en/stable/
+.. _Pascal triangle: https://en.wikipedia.org/wiki/Pascal%27s_triangle
+
 Background
 ----------
-
-Place holder.
 
 Basic Usage/Instalation
 -----------------------

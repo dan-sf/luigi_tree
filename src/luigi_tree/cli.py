@@ -29,7 +29,9 @@ def cmd_line_parser(args):
     parser.add_argument('--output-dir', type=str, default='/tmp',
                         help='Directory path to write output targets to, default is /tmp')
     parser.add_argument('--server', type=str, default='localhost',
-                        help='Server the luigi scheduler is running on, default is localhost')
+                        help='Server the luigi scheduler is running on, default is localhost. '
+                             'If there is no server running luigi_tree will run using the '
+                             'local-scheduler')
     parser.add_argument('--port', type=int, default=8082,
                         help='Port the luigi scheduler is running on, default is 8082')
     return parser.parse_args(args)

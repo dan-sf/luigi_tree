@@ -22,7 +22,11 @@ I have also included unit tests which can be run with the following command:
 
     python setup.py test
 
-Check out the Luigi_ documentation for more code examples and use cases.
+Check out the Luigi_ documentation for more code examples and use cases. I also
+did a blog post which goes into more detail about the usage and reasoning for
+this project here_.
+
+.. _here: http://www.dsfcode.com/pascals-triangle-with-luigi/
 
 Installation
 ------------

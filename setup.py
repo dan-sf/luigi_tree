@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(name='luigi_tree',
-      description='Create pascal\'s triangle like trees in Luigi.',
+      description='Create Pascal\'s triangle like trees in Luigi.',
       version='0.1',
       package_dir={'':'src'},
       packages=['luigi_tree'],
